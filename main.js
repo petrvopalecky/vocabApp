@@ -1,6 +1,5 @@
 $(document).ready(function () {
     let espUs;
-    const author = "Petr Vopalecky";
 
     espUs = true;
 
@@ -39,6 +38,4 @@ $(document).ready(function () {
     $("#countVocab").html(vocab.length);
 
     getRandomWord(espUs);
-
-
 });
